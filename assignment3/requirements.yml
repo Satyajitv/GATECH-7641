@@ -1,0 +1,16 @@
+name: test-env_test
+channels:
+  - conda-forge
+  - anaconda
+  - defaults
+dependencies:
+  - python=3.7.6
+  - numpy=1.17.2
+  - matplotlib=3.1.0
+  - scipy=1.3.1
+  - pandas=0.25.1
+  - pip=19.2.2
+  - scikit-learn=0.21.2
+  - seaborn=0.9
+  - keras == 2.3.1
+  - jupyter
